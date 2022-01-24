@@ -1,0 +1,13 @@
+Here you have the list of all possible Root Commands for this application:
+Type 'help ROOT_COMMAND' to find out more about the command
+
+    search
+    view
+    set
+    playlist
+    blacklist
+    watchlist
+    get
+    preference
+    restriction
+    find

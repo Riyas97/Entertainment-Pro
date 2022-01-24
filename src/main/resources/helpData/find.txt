@@ -1,0 +1,6 @@
+Find functionality:
+    #find         :Find cinema in a certain region
+
+        usage: find cinema  REGION_NAME
+
+        Example: find cinema clementi

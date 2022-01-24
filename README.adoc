@@ -1,0 +1,52 @@
+= Entertainment Pro
+image::![travis](https://travis-ci.com/AY1920S1-CS2113T-T09-4/main.svg?branch=master)
+ifdef::env-github,env-browser[:relfileprefix: docs/]
+
+ifdef::env-github[]
+image::docs/images/Ui.png[width="600" height="400"]
+endif::[]
+
+ifndef::env-github[]
+image::images/Ui.png[width="600" height="400"]
+endif::[]
+
+* This is a desktop application primarily to search for movies and TV shows. It has a GUI but most of the user interactions happen through a CLI (Command Line Interface).
+* It is a Java application intended for doing movies and TV shows related functionalities such as creating playlist.
+* It is *written in OOP fashion*. It provides a *reasonably well-written* code.
+
+* *Features*:
+** A GUI for displaying all available movies and TV shows
+** Comes with a watchlist where users can add movies/TV shows that they want to watch
+** Comes with the ability to create playlists and add movies/TV shows to those playlist
+** Auto-completion and spell checker functionality 
+
+* *Target user profile*:
+** This desktop application is intended for users who
+
+*** want to search about new and upcoming movies and TV shows
+*** want to obtain other information reated to movies and TV shows such as ratings for a movie 
+*** prefers typing over mouse input
+*** is reasonably comfortable using CLI apps
+
+* *Value proposition*:
+*** Users will be able to save time and effort doing movies and/or TV show related stuff compared to a typical mouse/GUI driven app.
+*** Furthermore, our app intends to provide various entertainment related functionality all under one roof so that users will not have the need to install different entertainment related apps for different purposes.
+
+
+
+== Site Map
+
+* <<UserGuide#, User Guide>>
+* <<DeveloperGuide#, Developer Guide>>
+* <<LearningOutcomes#, Learning Outcomes>>
+* <<AboutUs#, About Us>>
+
+== Acknowledgements
+
+* Data for movies and TV shows displayed in this app was extracted from https://www.themoviedb.org/documentation/api[MovieDB API].
+* Some parts of this sample application were inspired by the excellent http://code.makery.ch/library/javafx-8-tutorial/[Java FX tutorial] by
+_Marco Jakob_.
+* Libraries used: https://code.google.com/archive/p/json-simple/[Simple JSON], https://github.com/TestFX/TestFX[TestFX], https://github.com/google/gson[GSON], https://github.com/junit-team/junit5[JUnit5]
+
+
+== Licence : link:LICENSE[MIT]
